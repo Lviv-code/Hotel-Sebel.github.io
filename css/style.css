@@ -1,0 +1,386 @@
+@font-face {
+    font-family: GraublauWeb-bold;
+    font-weight: bold;
+    src: url("../Fonts/proxima-nova-bold-58f54866763ae.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GraublauWeb-Regular;
+    font-weight: bold;
+    src: url("../Fonts/ProximaNova-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GraublauWeb-Semibold;
+    font-weight: bold;
+    src: url("../Fonts/ProximaNova-Semibold.otf") format("opentype");
+}
+/*-- fade in animation--*/
+
+@-moz-keyframes fadeInDown {
+    0%   {
+        visibility: visible;
+        -moz-transform: translate(0, -40px);
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        -moz-transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInDown {
+    0%   {
+        visibility: visible;
+        transform: translate(0, -40px);
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    margin-top: 74px;
+    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0s forwards;
+    animation: fadeInDown 0.75s linear 0s forwards;
+}
+
+.logo {
+    width: 141px;
+    height: 141px;
+    background-image: url("../Links/THE\ SEBEL_Prim_logo_FC_RGB_Pos&Neg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 60px 0 -78px 0;
+    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0s forwards;
+    animation: fadeInDown 0.75s linear 0s forwards;
+}
+
+.nav-link {
+    color: #323366;
+    font-family: GraublauWeb-Semibold;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 20px 0 20px;
+    border-left: 1px solid #323366;
+    text-decoration: none;
+    
+}
+.nav-link:first-of-type{
+    border-left: none;
+}
+
+header>.btnHeader {
+    width: 142px;
+    height: 40px;
+    background: #CC9966;
+    border: none;
+    color: #323366;
+    font-family: GraublauWeb-Semibold;
+    font-size: 14px;
+    margin: 59px 0 0 190px;
+    float: right;
+    cursor: pointer;
+    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0s forwards;
+    animation: fadeInDown 0.75s linear 0s forwards;
+}
+
+.topImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 677px;
+    width: 100%;
+    background-image: url("../Links/Sebel-EK-print\ copy3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topImage> h3{
+    font-family: GraublauWeb-bold;
+    font-size: 34px;
+    display: block;
+    padding-top: 235px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0s forwards;
+    animation: fadeInDown 0.75s linear 0s forwards;
+
+}
+.topImage> h2{
+    font-family: GraublauWeb-bold;
+    font-size: 85px;
+    display: block;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0s forwards;
+    animation: fadeInDown 0.75s linear 0s forwards;
+}
+.topImage> .btnHeader{
+    width: 233px;
+    height: 42px;
+    background: #CC9966;
+    text-transform: uppercase;
+    border: none;
+    color: #323366;
+    font-family: GraublauWeb-Semibold;
+    font-size: 19px;
+    display: block;
+    margin-top: 50px;
+    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0s forwards;
+    animation: fadeInDown 0.75s linear 0s forwards;
+}
+.btnHeader:focus{
+    outline: 0;
+    border: none;
+}
+.btnHeader:active{
+    background: #b37e4a!important;
+    
+}
+.line{
+    width: 100%;
+    height: 12px;
+    background: #CC9966;
+}
+.line-wight{
+    width: 100%;
+    height: 12px;
+    background: white;
+}
+.block1{
+    width: 100%;
+    height: 357px;
+    background: #F5ECDE;
+}
+.content> p{
+    line-height: 28px;
+    color: #323366;
+}
+.lightYellow{
+    background: #F5ECDE;
+}
+.block1> h2{
+    font-size: 42px;
+    font-family: GraublauWeb-Semibold;
+    text-align: center;
+    color:#CC9966;
+    padding-top:105px;
+    margin: 0%;
+}
+.content{
+    flex-direction: column;    
+    width: 782px;
+    height: 84px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.block2{
+    width: 100%;
+    height: 748px; 
+    display: flex;
+}
+.block2> .content{
+    padding: 175px 0 0 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.block2> .image1{
+    background-image: url("../Links/Sebel-DQS-print\ copy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.block2> .image2{
+    background-image: url("../Links/tyler-nix-489782-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.block2> .content> h2{
+    font-size: 42px;
+    font-family: GraublauWeb-Semibold;
+    text-align: center;
+    color: #323366;
+    margin-bottom: 35px;
+    
+     
+}
+.block2> .content> p{
+    width: 410px;
+    line-height: 28px;
+    color: #323366;
+}
+.block2> .content> .btnHeader{
+    width: 142px;
+    height: 40px;
+    background: #CC9966;
+    border: none;
+    color: #323366;
+    font-family: GraublauWeb-Semibold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.block2>.content> .colorBrown{
+    color: #CC9966;
+}
+.contactBlock{
+    height: 421px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contactBlock> .map{
+width: 50%;
+}
+.contactBlock> .contact{
+    width: 50%;
+    background-color: #F5ECDE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactBlock> .contact> h2{
+    font-size: 42px;
+    font-family: GraublauWeb-Semibold;
+    text-align: center;
+    color:#CC9966;
+    padding-top:62px; 
+    padding-bottom: 20px;
+}
+.contactBlock> .contact> p{
+    font-size: 18px;
+    font-family: GraublauWeb-Regular;
+    text-align: center;
+    color: #323366;
+}
+.email> a {
+    font-family: GraublauWeb-Regular;
+    color: #323366;
+    font-size: 18px;
+    text-decoration: underline;
+}
+svg{
+    width: 12px;
+}
+.arrow{
+    width: 180px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 13px;
+    display: flex;
+}
+.arrow> a{
+    font-family: GraublauWeb-Semibold;
+    color: #323366;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: auto;
+}
+.arrow>.fab{
+    color: #323366; 
+    height: 20px;
+}
+.arrow>div{
+        background-image: url(../Links/svg/baseline-arrow_forward-24px.svg);
+        width: 20px;
+        height: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social> div{
+    display: flex;
+    justify-content: space-between;
+}
+.social>ul>li{
+    list-style-type: none;
+}
+.social>div{
+    margin: 77px 7% 21px 7%;
+}
+.social>div>a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.fab, .email{
+    color: #323366; 
+}
+a> .instagram{
+    background-image: url(../Links/svg/instagram.svg);
+        width: 21px;
+        height: 21px;
+}
+a> .facebook{
+    background-image: url(../Links/svg/facebook.svg);
+        width: 20px;
+        height: 20px;
+}
+footer{
+    height: 90px;
+    width: 100%;
+    background: #FCFBF8;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    background-image: url(../Links/svg/footer1.svg);
+    width: 30px;
+    height: 14px;
+    margin: 23px 0 8px 0;
+}
+.second{
+    background-image: url(../Links/svg/footer2.svg);
+    width: 188px;
+    height: 17px;
+     
+}
+footer> p{
+    font-size: 12px;
+    color: #323366;
+    font-family: GraublauWeb-Regular;
+    line-height: 69px;
+}
+footer> p:last-of-type{
+    margin-left: 160px;
+    margin-right: 7%;
+}
+footer>div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+footer> p:first-of-type{
+    margin-left: 7%;
+}
