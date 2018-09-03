@@ -15,38 +15,48 @@
     font-weight: bold;
     src: url("../Fonts/ProximaNova-Semibold.otf") format("opentype");
 }
-/*-- fade in animation--*/
 
+/*-- fade in animation--*/
 @-moz-keyframes fadeInDown {
-    0%   {
+    0% {
         visibility: visible;
         -moz-transform: translate(0, -40px);
         opacity: 0;
     }
+
     100% {
         visibility: visible;
         -moz-transform: translate(0, 0);
         opacity: 1;
     }
 }
+
 @keyframes fadeInDown {
-    0%   {
+    0% {
         visibility: visible;
         transform: translate(0, -40px);
         opacity: 0;
     }
+
     100% {
         visibility: visible;
         transform: translate(0, 0);
         opacity: 1;
     }
 }
-body{
+
+body {
     margin: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
 }
 
 .nav {
@@ -78,9 +88,9 @@ header{
     padding: 0 20px 0 20px;
     border-left: 1px solid #323366;
     text-decoration: none;
-    
 }
-.nav-link:first-of-type{
+
+.nav-link:first-of-type {
     border-left: none;
 }
 
@@ -92,7 +102,7 @@ header>.btnHeader {
     color: #323366;
     font-family: GraublauWeb-Semibold;
     font-size: 14px;
-    margin: 59px 0 0 190px;
+    margin: 59px 0 0 234px;
     float: right;
     cursor: pointer;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
@@ -110,8 +120,10 @@ header>.btnHeader {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 123px;
 }
-.topImage> h3{
+
+.topImage>h3 {
     font-family: GraublauWeb-bold;
     font-size: 34px;
     display: block;
@@ -122,9 +134,9 @@ header>.btnHeader {
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
-
 }
-.topImage> h2{
+
+.topImage>h2 {
     font-family: GraublauWeb-bold;
     font-size: 85px;
     display: block;
@@ -135,7 +147,8 @@ header>.btnHeader {
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
 }
-.topImage> .btnHeader{
+
+.topImage>.btnHeader {
     width: 233px;
     height: 42px;
     background: #CC9966;
@@ -150,46 +163,54 @@ header>.btnHeader {
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
 }
-.btnHeader:focus{
+
+.btnHeader:focus {
     outline: 0;
     border: none;
 }
-.btnHeader:active{
-    background: #b37e4a!important;
-    
+
+.btnHeader:active {
+    background: #b37e4a !important;
 }
-.line{
+
+.line {
     width: 100%;
     height: 12px;
     background: #CC9966;
 }
-.line-wight{
+
+.lineWight {
     width: 100%;
-    height: 12px;
-    background: white;
+    height: 12px !important;
+    background: white !important;
 }
-.block1{
+
+.block1 {
     width: 100%;
     height: 357px;
     background: #F5ECDE;
 }
-.content> p{
+
+.content>p {
     line-height: 28px;
     color: #323366;
 }
-.lightYellow{
+
+.lightYellow {
     background: #F5ECDE;
 }
-.block1> h2{
+
+.block1>h2 {
     font-size: 42px;
     font-family: GraublauWeb-Semibold;
     text-align: center;
-    color:#CC9966;
-    padding-top:105px;
+    color: #CC9966;
+    padding-top: 105px;
     margin: 0%;
 }
-.content{
-    flex-direction: column;    
+
+.content {
+    flex-direction: column;
     width: 782px;
     height: 84px;
     text-align: center;
@@ -197,19 +218,27 @@ header>.btnHeader {
     margin: auto;
     width: 50%;
 }
-.block2{
+
+.block2 {
     width: 100%;
-    height: 748px; 
+    height: 748px;
     display: flex;
+    position: relative;
 }
-.block2> .content{
+.space{
+    position: absolute;
+    top: -123px;
+}
+
+
+.block2>.content {
     padding: 175px 0 0 0;
     display: flex;
     align-items: center;
     height: 100%;
-
 }
-.block2> .image1{
+
+.block2>.image1 {
     background-image: url("../Links/Sebel-DQS-print\ copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -217,7 +246,8 @@ header>.btnHeader {
     width: 50%;
     height: 100%;
 }
-.block2> .image2{
+
+.block2>.image2 {
     background-image: url("../Links/tyler-nix-489782-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -225,21 +255,22 @@ header>.btnHeader {
     width: 50%;
     height: 100%;
 }
-.block2> .content> h2{
+
+.block2>.content>h2 {
     font-size: 42px;
     font-family: GraublauWeb-Semibold;
     text-align: center;
     color: #323366;
     margin-bottom: 35px;
-    
-     
 }
-.block2> .content> p{
+
+.block2>.content>p {
     width: 410px;
     line-height: 28px;
     color: #323366;
 }
-.block2> .content> .btnHeader{
+
+.block2>.content>.btnHeader {
     width: 142px;
     height: 40px;
     background: #CC9966;
@@ -249,49 +280,60 @@ header>.btnHeader {
     font-size: 14px;
     text-transform: uppercase;
 }
-.block2>.content> .colorBrown{
+
+.block2>.content>.colorBrown {
     color: #CC9966;
 }
-.contactBlock{
+
+.contactBlock {
     height: 421px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
-.contactBlock> .map{
-width: 50%;
+
+
+.contactBlock>.map {
+    width: 50%;
 }
-.contactBlock> .contact{
+
+.contactBlock>.contact {
     width: 50%;
     background-color: #F5ECDE;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contactBlock> .contact> h2{
+
+.contactBlock>.contact>h2 {
     font-size: 42px;
     font-family: GraublauWeb-Semibold;
     text-align: center;
-    color:#CC9966;
-    padding-top:62px; 
+    color: #CC9966;
+    padding-top: 62px;
     padding-bottom: 20px;
 }
-.contactBlock> .contact> p{
+
+.contactBlock>.contact>p {
     font-size: 18px;
     font-family: GraublauWeb-Regular;
     text-align: center;
     color: #323366;
 }
-.email> a {
+
+.email>a {
     font-family: GraublauWeb-Regular;
     color: #323366;
     font-size: 18px;
     text-decoration: underline;
 }
-svg{
+
+svg {
     width: 12px;
 }
-.arrow{
+
+.arrow {
     width: 180px;
     height: 40px;
     border: none;
@@ -299,88 +341,105 @@ svg{
     padding: 6px 13px;
     display: flex;
 }
-.arrow> a{
+
+.arrow>a {
     font-family: GraublauWeb-Semibold;
     color: #323366;
     font-size: 18px;
     text-decoration: underline;
     margin: auto;
 }
-.arrow>.fab{
-    color: #323366; 
+
+.arrow>.fab {
+    color: #323366;
     height: 20px;
 }
-.arrow>div{
-        background-image: url(../Links/svg/baseline-arrow_forward-24px.svg);
-        width: 20px;
-        height: 20px;
+
+.arrow>div {
+    background-image: url(../Links/svg/baseline-arrow_forward-bluer.svg);
+    width: 20px;
+    height: 20px;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: space-between;
 }
-.social> div{
+
+.social>div {
     display: flex;
     justify-content: space-between;
 }
-.social>ul>li{
+
+.social>ul>li {
     list-style-type: none;
 }
-.social>div{
+
+.social>div {
     margin: 77px 7% 21px 7%;
 }
-.social>div>a{
+
+.social>div>a {
     text-decoration: none;
     margin-left: 5px;
 }
-.fab, .email{
-    color: #323366; 
+
+.fab,
+.email {
+    color: #323366;
 }
-a> .instagram{
+
+a>.instagram {
     background-image: url(../Links/svg/instagram.svg);
-        width: 21px;
-        height: 21px;
+    width: 21px;
+    height: 21px;
 }
-a> .facebook{
+
+a>.facebook {
     background-image: url(../Links/svg/facebook.svg);
-        width: 20px;
-        height: 20px;
+    width: 20px;
+    height: 20px;
 }
-footer{
+
+footer {
     height: 90px;
     width: 100%;
     background: #FCFBF8;
     display: flex;
     justify-content: space-between;
 }
-.first{
+
+.first {
     background-image: url(../Links/svg/footer1.svg);
     width: 30px;
     height: 14px;
     margin: 23px 0 8px 0;
 }
-.second{
+
+.second {
     background-image: url(../Links/svg/footer2.svg);
     width: 188px;
     height: 17px;
-     
 }
-footer> p{
+
+footer>p {
     font-size: 12px;
     color: #323366;
     font-family: GraublauWeb-Regular;
     line-height: 69px;
 }
-footer> p:last-of-type{
+
+footer>p:last-of-type {
     margin-left: 160px;
     margin-right: 7%;
 }
-footer>div{
-display: flex;
-flex-direction: column;
-align-items: center;
+
+footer>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-footer> p:first-of-type{
+footer>p:first-of-type {
     margin-left: 7%;
 }
