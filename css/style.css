@@ -1,21 +1,3 @@
-@font-face {
-    font-family: GraublauWeb-bold;
-    font-weight: bold;
-    src: url("../Fonts/proxima-nova-bold-58f54866763ae.otf") format("opentype");
-}
-
-@font-face {
-    font-family: GraublauWeb-Regular;
-    font-weight: bold;
-    src: url("../Fonts/ProximaNova-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: GraublauWeb-Semibold;
-    font-weight: bold;
-    src: url("../Fonts/ProximaNova-Semibold.otf") format("opentype");
-}
-
 /*-- fade in animation--*/
 @-moz-keyframes fadeInDown {
     0% {
@@ -82,7 +64,8 @@ header {
 
 .nav-link {
     color: #323366;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 14px;
     line-height: 14px;
     padding: 0 20px 0 20px;
@@ -100,7 +83,8 @@ header>.btnHeader {
     background: #CC9966;
     border: none;
     color: #323366;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 14px;
     margin: 59px 0 0 234px;
     float: right;
@@ -124,7 +108,8 @@ header>.btnHeader {
 }
 
 .topImage>h3 {
-    font-family: GraublauWeb-bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 34px;
     display: block;
     padding-top: 235px;
@@ -137,7 +122,8 @@ header>.btnHeader {
 }
 
 .topImage>h2 {
-    font-family: GraublauWeb-bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 85px;
     display: block;
     text-align: center;
@@ -155,7 +141,8 @@ header>.btnHeader {
     text-transform: uppercase;
     border: none;
     color: #323366;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 19px;
     display: block;
     margin-top: 50px;
@@ -202,7 +189,8 @@ header>.btnHeader {
 
 .block1>h2 {
     font-size: 42px;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: #CC9966;
     padding-top: 105px;
@@ -258,7 +246,8 @@ header>.btnHeader {
 
 .block2>.content>h2 {
     font-size: 42px;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: #323366;
     margin-bottom: 35px;
@@ -276,7 +265,8 @@ header>.btnHeader {
     background: #CC9966;
     border: none;
     color: #323366;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -308,7 +298,8 @@ header>.btnHeader {
 
 .contactBlock>.contact>h2 {
     font-size: 42px;
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: #CC9966;
     padding-top: 62px;
@@ -317,13 +308,15 @@ header>.btnHeader {
 
 .contactBlock>.contact>p {
     font-size: 18px;
-    font-family: GraublauWeb-Regular;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-align: center;
     color: #323366;
 }
 
 .email>a {
-    font-family: GraublauWeb-Regular;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: #323366;
     font-size: 18px;
     text-decoration: underline;
@@ -343,7 +336,8 @@ svg {
 }
 
 .arrow>a {
-    font-family: GraublauWeb-Semibold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: #323366;
     font-size: 18px;
     text-decoration: underline;
@@ -425,7 +419,8 @@ footer {
 footer>p {
     font-size: 12px;
     color: #323366;
-    font-family: GraublauWeb-Regular;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     line-height: 69px;
 }
 
@@ -442,4 +437,18 @@ footer>div {
 
 footer>p:first-of-type {
     margin-left: 7%;
+}
+.slider{
+width: 80vw!important;
+}
+.sliderImg{
+    width: 278px;
+    height: 278px;
+}
+.slick-slide {
+    box-sizing: border-box;
+}
+.sliderContainer{
+    display: flex;
+    justify-content: center;
 }
