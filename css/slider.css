@@ -351,9 +351,13 @@
   height: 52px;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.slick-prev:before {
   font-size: 30px;
+  margin-left: 23px;
+}
+.slick-next:before{
+  font-size: 30px;
+  margin-left: -22px;
 }
 
 .slick-prev {
