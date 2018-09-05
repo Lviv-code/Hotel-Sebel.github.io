@@ -105,10 +105,10 @@
     </div>
     <div class="social">
       <div class="email">
-        <a href="https://www.instagram.com/thesebelcanberra/">@thesebelcanberra</a>
+        <a href="https://www.instagram.com/thesebelcanberra/" target="_blank" rel="noopener noreferrer">@thesebelcanberra</a>
       </div>
       <div>
-        <a href="https://www.instagram.com/thesebelcanberra/">
+        <a href="https://www.instagram.com/thesebelcanberra/" target="_blank" rel="noopener noreferrer">
           <?xml version="1.0" encoding="utf-8"?>
           <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
@@ -124,7 +124,7 @@
 	c0-1.7,0-3.5,0-5.2c0-1.7,0-3.4,0-5.2C19.4,4.3,19.4,4.3,19.4,4.3" />
           </svg>
         </a>
-        <a href="https://www.facebook.com/thesebelcanberra">
+        <a href="https://www.facebook.com/thesebelcanberra" target="_blank" rel="noopener noreferrer">
           <?xml version="1.0" encoding="iso-8859-1"?>
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; fill: #323366" xml:space="preserve">
@@ -230,12 +230,23 @@
           h-3.5V7h-7.9V0.8h-3.5v15.7h3.5v-6.3h7.9v6.3H108.2z" />
         </svg></div>
     </div>
-    <p>TERMS & CONDITIONS</p>
-  </footer>
+    <p>TERMS & CONDITIONS</p>    
+  </footer>  
+  
+  <div id="instafeed"></div>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/int.js"></script>
   <script src="./js/script.js"></script>
+  <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'popular',
+        tagName: 'awesome',
+        clientId: '1583890590'
+    });
+    feed.run();
+</script>
 </body>
 
 </html>

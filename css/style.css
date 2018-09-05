@@ -86,7 +86,7 @@ header>.btnHeader {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin: 59px 0 0 234px;
+    margin: 59px 0 0 277px;
     float: right;
     cursor: pointer;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
@@ -181,6 +181,7 @@ header>.btnHeader {
 .content>p {
     line-height: 28px;
     color: #323366;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .lightYellow {
@@ -257,6 +258,7 @@ header>.btnHeader {
     width: 410px;
     line-height: 28px;
     color: #323366;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .block2>.content>.btnHeader {
@@ -451,4 +453,8 @@ footer>p:first-of-type {
 .sliderContainer {
     display: flex;
     justify-content: center;
+}
+.instagram-media{
+    width: 100px;
+    height: 100px;
 }
