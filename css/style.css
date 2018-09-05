@@ -213,11 +213,11 @@ header>.btnHeader {
     display: flex;
     position: relative;
 }
-.space{
+
+.space {
     position: absolute;
     top: -123px;
 }
-
 
 .block2>.content {
     padding: 175px 0 0 0;
@@ -282,7 +282,6 @@ header>.btnHeader {
     flex-direction: row;
     position: relative;
 }
-
 
 .contactBlock>.map {
     width: 50%;
@@ -438,17 +437,17 @@ footer>div {
 footer>p:first-of-type {
     margin-left: 7%;
 }
-.slider{
-width: 80vw!important;
+
+.slider {
+    width: 1135px !important;
+    height: 280px !important;
 }
-.sliderImg{
-    width: 278px;
-    height: 278px;
-}
+
 .slick-slide {
     box-sizing: border-box;
 }
-.sliderContainer{
+
+.sliderContainer {
     display: flex;
     justify-content: center;
 }
