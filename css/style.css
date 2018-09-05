@@ -220,7 +220,6 @@ header>.btnHeader {
 }
 
 .block2>.content {
-    padding: 175px 0 0 0;
     display: flex;
     align-items: center;
     height: 100%;
@@ -251,6 +250,7 @@ header>.btnHeader {
     text-align: center;
     color: #323366;
     margin-bottom: 35px;
+    margin-top: 200px;
 }
 
 .block2>.content>p {
@@ -273,6 +273,7 @@ header>.btnHeader {
 
 .block2>.content>.colorBrown {
     color: #CC9966;
+    margin-top: 196px;
 }
 
 .contactBlock {
