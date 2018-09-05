@@ -1,4 +1,4 @@
-/*-- fade in animation--*/
+
 @-moz-keyframes fadeInDown {
     0% {
         visibility: visible;
@@ -348,10 +348,9 @@ svg {
     height: 20px;
 }
 
-.arrow>div {
-    background-image: url("../Links/svg/baseline-arrow_forward-bluer.svg");
-    width: 20px;
-    height: 20px;
+.arrow>svg {
+    width: 30px;
+    height: 30px;
     margin-top: 7px;
 }
 
@@ -383,14 +382,12 @@ svg {
     color: #323366;
 }
 
-a>.instagram {
-    background-image: url("../Links/svg/instagram.svg");
+a>svg {
     width: 21px;
     height: 21px;
 }
 
-a>.facebook {
-    background-image: url("../Links/svg/facebook.svg");
+a>svg {
     width: 20px;
     height: 20px;
 }
@@ -403,15 +400,17 @@ footer {
     justify-content: space-between;
 }
 
-.first {
-    background-image: url("../Links/svg/footer1.svg");
+.first>svg{
     width: 30px;
     height: 14px;
     margin: 23px 0 8px 0;
+    
+}
+.first>svg>path{
+    fill: #DF9B15;
 }
 
-.second {
-    background-image: url("../Links/svg/footer2.svg");
+.second>svg {
     width: 188px;
     height: 17px;
 }
