@@ -349,9 +349,10 @@ svg {
 }
 
 .arrow>div {
-    background-image: url(../Links/svg/baseline-arrow_forward-bluer.svg);
+    background-image: url('../Links/svg/baseline-arrow_forward-bluer.svg');
     width: 20px;
     height: 20px;
+    margin-top: 7px;
 }
 
 .social {
@@ -383,13 +384,13 @@ svg {
 }
 
 a>.instagram {
-    background-image: url(../Links/svg/instagram.svg);
+    background-image: url('../Links/svg/instagram.svg');
     width: 21px;
     height: 21px;
 }
 
 a>.facebook {
-    background-image: url(../Links/svg/facebook.svg);
+    background-image: url('../Links/svg/facebook.svg');
     width: 20px;
     height: 20px;
 }
@@ -403,14 +404,14 @@ footer {
 }
 
 .first {
-    background-image: url(../Links/svg/footer1.svg);
+    background-image: url('../Links/svg/footer1.svg');
     width: 30px;
     height: 14px;
     margin: 23px 0 8px 0;
 }
 
 .second {
-    background-image: url(../Links/svg/footer2.svg);
+    background-image: url('../Links/svg/footer2.svg');
     width: 188px;
     height: 17px;
 }
