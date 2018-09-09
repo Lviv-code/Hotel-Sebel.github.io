@@ -1,54 +1,62 @@
-$(document).ready(function() {
+$(document).ready(function () {
+    var token = '7849220073.043c875.45292ddb5bf3441489ff47fd27b1ac03';
+    var imgUrl = [];
 
-    $('.responsive').slick({
-        infinite: true,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                // centerMode: true,
-
+    $.ajax({
+        url: 'https://api.instagram.com/v1/users/self/media/recent',
+        dataType: 'jsonp',
+        type: 'GET',
+        data: {
+            access_token: token
+        },
+        success: function (data) {
+            console.log(imgUrl);
+            for (x in data.data) {
+                imgUrl.push(data.data[x].images.low_resolution.url);
             }
-
-        }, {
-            breakpoint: 800,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 2,
-                dots: true,
-                infinite: true,
-
-            }
-
-
-        }, {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                dots: true,
-                infinite: true,
-                
-            }
-        }, {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
-            }
-        }]
+            $(".slide1").css("background-image", `url(${imgUrl[0]}`);
+            $(".slide2").css("background-image", `url(${imgUrl[1]}`);
+            $(".slide3").css("background-image", `url(${imgUrl[2]}`);
+            $(".slide4").css("background-image", `url(${imgUrl[3]}`);
+        },
+        error: function (data) {
+            console.log(data);
+        }
     });
 
-    $('.sliderImg').click(function() {
-        window.open("https://www.instagram.com/thesebelcanberra/");
-          });
+    var slideIndex = 0;
+    var slideIndex1 = 1;
+    var slideIndex2 = 2;
+    var slideIndex3 = 3;
+
+    $('.arrow-right').click(function () {
+        if (slideIndex == imgUrl.length - 1) slideIndex = 0;
+        else showDivs(slideIndex += 1);
+        if (slideIndex1 == imgUrl.length - 1) slideIndex1 = 0;
+        else showDivs(slideIndex1 += 1);
+        if (slideIndex2 == imgUrl.length - 1) slideIndex2 = 0;
+        else showDivs(slideIndex2 += 1);
+        if (slideIndex3 == imgUrl.length - 1) slideIndex3 = 0;
+        else showDivs(slideIndex3 += 1);
+        console.log(slideIndex);
+    })
+    $('.arrow-left').click(function () {
+        if (slideIndex == 0) slideIndex = imgUrl.length - 1;
+        else showDivs(slideIndex -= 1);
+        if (slideIndex1 == 0) slideIndex1 = imgUrl.length - 1;
+        else showDivs(slideIndex1 -= 1);
+        if (slideIndex2 == 0) slideIndex2 = imgUrl.length - 1;
+        else showDivs(slideIndex2 -= 1);
+        if (slideIndex3 == 0) slideIndex3 = imgUrl.length - 1;
+        else showDivs(slideIndex3 -= 1);
+        console.log(slideIndex);
+    })
+
+    function showDivs() {
+        $(".slide1").css("background-image", `url(${imgUrl[slideIndex]}`);
+        $(".slide2").css("background-image", `url(${imgUrl[slideIndex1]}`);
+        $(".slide3").css("background-image", `url(${imgUrl[slideIndex2]}`);
+        $(".slide4").css("background-image", `url(${imgUrl[slideIndex3]}`);
+    }
 
 });

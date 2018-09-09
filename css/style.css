@@ -1,4 +1,3 @@
-
 @-moz-keyframes fadeInDown {
     0% {
         visibility: visible;
@@ -27,8 +26,13 @@
     }
 }
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -64,7 +68,6 @@ header {
 
 .nav-link {
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
@@ -83,7 +86,6 @@ header>.btnHeader {
     background: #CC9966;
     border: none;
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
     margin: 59px 0 0 277px;
@@ -108,7 +110,6 @@ header>.btnHeader {
 }
 
 .topImage>h3 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 34px;
     display: block;
@@ -122,7 +123,6 @@ header>.btnHeader {
 }
 
 .topImage>h2 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 85px;
     display: block;
@@ -141,11 +141,11 @@ header>.btnHeader {
     text-transform: uppercase;
     border: none;
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 19px;
     display: block;
     margin-top: 50px;
+    cursor: pointer;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
@@ -181,7 +181,6 @@ header>.btnHeader {
 .content>p {
     line-height: 28px;
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .lightYellow {
@@ -190,7 +189,6 @@ header>.btnHeader {
 
 .block1>h2 {
     font-size: 42px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #CC9966;
@@ -246,7 +244,6 @@ header>.btnHeader {
 
 .block2>.content>h2 {
     font-size: 42px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #323366;
@@ -258,7 +255,6 @@ header>.btnHeader {
     width: 410px;
     line-height: 28px;
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .block2>.content>.btnHeader {
@@ -267,9 +263,9 @@ header>.btnHeader {
     background: #CC9966;
     border: none;
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
+    cursor: pointer;
     text-transform: uppercase;
 }
 
@@ -300,7 +296,6 @@ header>.btnHeader {
 
 .contactBlock>.contact>h2 {
     font-size: 42px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #CC9966;
@@ -310,14 +305,12 @@ header>.btnHeader {
 
 .contactBlock>.contact>p {
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: center;
     color: #323366;
 }
 
 .email>a {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #323366;
     font-size: 18px;
@@ -338,7 +331,6 @@ svg {
 }
 
 .arrow>a {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #323366;
     font-size: 18px;
@@ -403,13 +395,13 @@ footer {
     justify-content: space-between;
 }
 
-.first>svg{
+.first>svg {
     width: 30px;
     height: 14px;
     margin: 23px 0 8px 0;
-    
 }
-.first>svg>path{
+
+.first>svg>path {
     fill: #DF9B15;
 }
 
@@ -421,7 +413,6 @@ footer {
 footer>p {
     font-size: 12px;
     color: #323366;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     line-height: 69px;
 }
@@ -441,20 +432,62 @@ footer>p:first-of-type {
     margin-left: 7%;
 }
 
-.slider {
-    width: 1135px !important;
-    height: 280px !important;
+/* slider */
+.carousel {
+    display: flex;
 }
 
-.slick-slide {
-    box-sizing: border-box;
+.slider {
+    display: flex;
+}
+
+.slide2,
+.slide1,
+.slide3,
+.slide4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    transition: 0.1s;
+    margin: 0 3px;
+}
+
+.arrow-left,
+.arrow-right {
+    height: 52px;
+    width: 52px;
+    background-color: #DF9B15;
+    margin-top: 125px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    margin-left: -26px;
+}
+
+.arrow-right {
+    margin-right: -26px;
+    z-index: 10;
+}
+
+.arrow-left>svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-left: -5px;
+}
+
+.arrow-right>svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 27px;
 }
 
 .sliderContainer {
     display: flex;
     justify-content: center;
-}
-.instagram-media{
-    width: 100px;
-    height: 100px;
+    height: 310px;
 }
