@@ -10,7 +10,6 @@ $(document).ready(function () {
             access_token: token
         },
         success: function (data) {
-            console.log(imgUrl);
             for (x in data.data) {
                 imgUrl.push(data.data[x].images.low_resolution.url);
             }
@@ -38,7 +37,6 @@ $(document).ready(function () {
         else showDivs(slideIndex2 += 1);
         if (slideIndex3 == imgUrl.length - 1) slideIndex3 = 0;
         else showDivs(slideIndex3 += 1);
-        console.log(slideIndex);
     })
     $('.arrow-left').click(function () {
         if (slideIndex == 0) slideIndex = imgUrl.length - 1;
@@ -49,7 +47,6 @@ $(document).ready(function () {
         else showDivs(slideIndex2 -= 1);
         if (slideIndex3 == 0) slideIndex3 = imgUrl.length - 1;
         else showDivs(slideIndex3 -= 1);
-        console.log(slideIndex);
     })
 
     function showDivs() {
