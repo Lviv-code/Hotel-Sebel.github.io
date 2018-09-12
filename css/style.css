@@ -249,6 +249,14 @@ header>.btnHeader {
     width: 50%;
     height: 100%;
 }
+.block2>.image4 {
+    background-image: url("../Links/b69421e6-0c95-4a92-8a01-dde89485992b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
 
 .block2>.content>h2 {
     font-size: 42px;
