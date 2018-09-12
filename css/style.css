@@ -241,6 +241,14 @@ header>.btnHeader {
     width: 50%;
     height: 100%;
 }
+.block2>.image3 {
+    background-image: url("../Links/nathan-dumlao-452771-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
 
 .block2>.content>h2 {
     font-size: 42px;
