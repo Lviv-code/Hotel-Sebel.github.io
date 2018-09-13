@@ -853,10 +853,10 @@ footer>p:first-of-type {
         background-image: url("../Links/rawpixelUnsplash.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 170% 100%!important;
-        -webkit-background-size: 170% 100%!important;
-        -moz-background-size: 170% 100%!important;
-        -o-background-size: 170% 100%!important;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
 
     .topImage {
