@@ -642,12 +642,6 @@ footer>p:first-of-type {
     header>.nav, header>.logo, header>.btnHeader{
         display: none;
     }
-    .topImage{
-        -webkit-background-size: 230%;
-    -moz-background-size: 230%;
-    -o-background-size: 230%;
-    background-size: 230%;
-    }
     
     .spase1{
         display: block;
@@ -807,10 +801,3 @@ footer>p:first-of-type {
         font-size: 14px;
     }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px)  {
-    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4{
-        height: 410px;
-        width: 100%; 
-    }
-
-}}
