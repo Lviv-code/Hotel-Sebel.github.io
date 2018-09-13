@@ -854,9 +854,9 @@ footer>p:first-of-type {
         background-repeat: no-repeat;
         background-position: center;
         background-size: 170% 100%!important;
-        -webkit-background-size: 170% 100%!important;
-        -moz-background-size: 170% 100%!important;
-        -o-background-size: 170% 100%!important;
+        -webkit-background-size: 170% 50%!important;
+        -moz-background-size: 170% 50%!important;
+        -o-background-size: 170% 50%!important;
     }
 
     .topImage {
@@ -864,8 +864,8 @@ footer>p:first-of-type {
         background-repeat: no-repeat;
         background-position: center;
         background-size: 170% 100%!important;
-        -webkit-background-size: 170% 30%!important;
-        -moz-background-size: 170% 30%!important;
-        -o-background-size: 170% 30%!important;
+        -webkit-background-size: 170% 10%!important;
+        -moz-background-size: 170% 10%!important;
+        -o-background-size: 170% 10%!important;
     }
 }
