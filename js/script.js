@@ -56,4 +56,14 @@ $(document).ready(function () {
         $(".slide4").css("background-image", `url(${imgUrl[slideIndex3]}`);
     }
 
+    // humburger menu
+    $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
+        $('#showMenu').toggleClass('show');
+    });
+    $('#nav-item, #nav-item1, #nav-item2, #nav-item3').click(function(){
+        $('#nav-icon').toggleClass('open');
+        $('#showMenu').toggleClass('show');
+	});
+
 });
