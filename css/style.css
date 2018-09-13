@@ -734,11 +734,25 @@ footer>p:first-of-type {
     .block2>.image4 {
         height: 410px;
         width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+    }
+    .topImage{
+        -webkit-background-size: 230%; 
+        -moz-background-size: 230%; 
+        -o-background-size: 230%; 
+        background-size: 230%; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover;
+    }
+    .block2>.image4,{
+        -webkit-background-size: 173%; 
+        -moz-background-size: 173%; 
+        -o-background-size: 173%; 
+        background-size: 173%; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
         background-size: cover;
     }
 
@@ -860,22 +874,5 @@ footer>p:first-of-type {
         width: 178px;
         height: 32px;
         font-size: 14px;
-    }
-}
-
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-
-    .block2>.image1,
-    .block2>.image2,
-    .block2>.image3,
-    .block2>.image4 {
-        height: 410px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
     }
 }
