@@ -740,20 +740,12 @@ footer>p:first-of-type {
         -moz-background-size: 230%; 
         -o-background-size: 230%; 
         background-size: 230%; 
-        -webkit-background-size: cover; 
-        -moz-background-size: cover; 
-        -o-background-size: cover; 
-        background-size: cover;
     }
     .block2>.image4,{
         -webkit-background-size: 173%; 
         -moz-background-size: 173%; 
         -o-background-size: 173%; 
         background-size: 173%; 
-        -webkit-background-size: cover; 
-        -moz-background-size: cover; 
-        -o-background-size: cover; 
-        background-size: cover;
     }
 
     .blockRevers {
