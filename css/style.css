@@ -821,6 +821,7 @@ footer>p:first-of-type {
     }
     .topImage{
         height: 587px;
+        width: 100%; 
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
