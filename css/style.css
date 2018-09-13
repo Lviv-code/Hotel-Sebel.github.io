@@ -735,18 +735,6 @@ footer>p:first-of-type {
         height: 410px;
         width: 100%;
     }
-    .topImage{
-        -webkit-background-size: 230%!important; 
-        -moz-background-size: 230%!important; 
-        -o-background-size: 230%!important; 
-        background-size: 230%!important; 
-    }
-    .block2>.image4{
-        -webkit-background-size: 173%!important; 
-        -moz-background-size: 173%!important; 
-        -o-background-size: 173%!important; 
-        background-size: 173%!important; 
-    }
     .blockRevers {
         flex-direction: column;
     }
