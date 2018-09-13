@@ -642,6 +642,12 @@ footer>p:first-of-type {
     header>.nav, header>.logo, header>.btnHeader{
         display: none;
     }
+    .topImage{
+        -webkit-background-size: 230%;
+    -moz-background-size: 230%;
+    -o-background-size: 230%;
+    background-size: 230%;
+    }
     
     .spase1{
         display: block;
