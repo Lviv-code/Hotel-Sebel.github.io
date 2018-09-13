@@ -808,9 +808,10 @@ footer>p:first-of-type {
     }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px)  {
-    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4{
+    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4, .topImage{
         height: 410px;
         width: 100%; 
+
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -819,16 +820,6 @@ footer>p:first-of-type {
             -o-background-size: cover;
         overflow: hidden;
     }
-    .topImage{
-        height: 587px;
-        width: 100%; 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-        overflow: hidden;
-    }
+    
 
 }
