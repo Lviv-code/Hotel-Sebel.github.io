@@ -55,12 +55,10 @@ header {
 .logo {
     width: 141px;
     height: 141px;
-    background: url("../Links/Logo.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../Links/Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     display: block;
     margin: 60px 0 -78px 0;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
@@ -104,12 +102,10 @@ header>.btnHeader {
     align-items: center;
     height: 677px;
     width: 100%;
-    background: url("../Links/Sebel-front.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../Links/Sebel-front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     margin-top: 123px;
 }
 
@@ -235,43 +231,38 @@ header>.btnHeader {
 }
 
 .block2>.image1 {
-    background: url("../Links/Sebel-EK-print.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../Links/Sebel-EK-print.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     width: 50%;
     height: 100%;
 }
 
 .block2>.image2 {
-    background: url("../Links/b69421e6-0c95-4a92-8a01-dde89485992b.jpg") no-repeat center center;
+    background-image: url("../Links/b69421e6-0c95-4a92-8a01-dde89485992b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
     width: 50%;
     height: 100%;
 }
 .block2>.image3 {
-    background: url("../Links/ea934315-103d-4b2d-aa33-a65acc01399f.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../Links/ea934315-103d-4b2d-aa33-a65acc01399f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     width: 50%;
     height: 100%;
 }
 .block2>.image4 {
-    background: url("../Links/rawpixelUnsplash.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../Links/rawpixelUnsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     width: 50%;
     height: 100%;
 }
