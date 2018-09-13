@@ -618,7 +618,13 @@ footer>p:first-of-type {
     }
 
     header>.btnHeader {
-        margin: 59px 20px 0 160px;
+        margin: 59px 10px 0 140px;
+    }
+    .block2>.content>h2{
+        font-size: 25px;
+    }
+    .block2>.content>p{
+        width: 80%;
     }
 }
 
@@ -634,6 +640,7 @@ footer>p:first-of-type {
     .space {
         top: -80px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
