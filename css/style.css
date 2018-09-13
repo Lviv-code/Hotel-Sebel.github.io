@@ -895,9 +895,8 @@ footer>p:first-of-type {
     }
 
     .topImage {
-        background: url('background: url("../Links/Sebel-front.jpg") no-repeat center center;
-        ') no-repeat center center;
--webkit-background-size: cover;
+        background: url("../Links/Sebel-front.jpg") no-repeat center center;
+        -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
