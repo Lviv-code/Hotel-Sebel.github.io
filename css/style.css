@@ -883,23 +883,5 @@ footer>p:first-of-type {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
-    .block2>.image44>.image4 {
-        height: 410px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-        -webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        -o-background-size: 100%;
-        overflow: hidden;
-    }
-
-    .topImage {
-        background: url("../Links/Sebel-front.jpg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        overflow: hidden;
-    }
+    
 }
