@@ -266,22 +266,13 @@ header>.btnHeader {
     height: 100%;
 }
 .block2>.image4 {
+    background: url("../Links/rawpixelUnsplash.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
     width: 50%;
-    height: 100%;
-}
-.image44{
-    background: url("../Links/rawpixelUnsplash.jpg") no-repeat center center;    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
     height: 100%;
 }
 
@@ -714,7 +705,7 @@ footer>p:first-of-type {
         height: 50%!important;
         width: 100%; 
     }
-    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image44{
+    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4{
         height: 410px;
         width: 100%; 
     }
@@ -817,15 +808,9 @@ footer>p:first-of-type {
     }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px)  {
-    .block2>.image44>.image4{
+    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4{
         height: 410px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-            -webkit-background-size: 100%;
-            -moz-background-size: 100%;
-            -o-background-size: 100%;
-        overflow: hidden;
+        width: 100%; 
     }
 
-}
+}}
