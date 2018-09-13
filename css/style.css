@@ -850,6 +850,7 @@ footer>p:first-of-type {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
     .image4 {
+        background-image: url("../Links/rawpixelUnsplash.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 170% 100%!important;
@@ -859,6 +860,7 @@ footer>p:first-of-type {
     }
 
     .topImage {
+        background-image: url("../Links/Sebel-front.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 170% 100%!important;
