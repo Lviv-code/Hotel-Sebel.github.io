@@ -735,6 +735,17 @@ footer>p:first-of-type {
         height: 410px;
         width: 100%;
     }
+    .block2>.image4, .topImage{
+        -webkit-background-size: 250%; 
+        -moz-background-size: 20%; 
+        -o-background-size: 230%; 
+        background-size: 230%; 
+        /* -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover; */
+    }
+
     .blockRevers {
         flex-direction: column;
     }
@@ -853,5 +864,26 @@ footer>p:first-of-type {
         width: 178px;
         height: 32px;
         font-size: 14px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    .block2>.image1,
+    .block2>.image2,
+    .block2>.image3,
+    .block2>.image4 {
+        height: 410px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: 60%; 
+    -moz-background-size: 60%; 
+    -o-background-size: 60%; 
+    background-size: 60%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
     }
 }
