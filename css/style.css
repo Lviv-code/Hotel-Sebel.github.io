@@ -702,6 +702,12 @@ footer>p:first-of-type {
     .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4{
         height: 410px;
         width: 100%; 
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     }
     .blockRevers{
         flex-direction: column;
