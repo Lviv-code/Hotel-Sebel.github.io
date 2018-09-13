@@ -625,13 +625,7 @@ footer>p:first-of-type {
         padding: 0 5px 0 5px;
     }
     header>.btnHeader{
-        margin: 59px 10px 0 10px;
-    }
-    .block2>.content>h2{
-        font-size: 30px;
-    }
-    .block2>.content>p{
-        width: 90%;
+        margin: 59px 20px 0 160px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -720,7 +714,7 @@ footer>p:first-of-type {
         height: 50%!important;
         width: 100%; 
     }
-    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image4{
+    .block2>.image1, .block2>.image2, .block2>.image3, .block2>.image44{
         height: 410px;
         width: 100%; 
     }
@@ -822,7 +816,7 @@ footer>p:first-of-type {
         font-size: 14px;
     }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 576px)  {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px)  {
     .block2>.image44>.image4{
         height: 410px;
         background-repeat: no-repeat;
