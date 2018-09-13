@@ -863,9 +863,9 @@ footer>p:first-of-type {
         background-image: url("../Links/Sebel-front.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100% 156%!important;
-        -webkit-background-size: 100% 156%!important;
-        -moz-background-size: 100% 156%!important;
-        -o-background-size: 100% 156%!important;
+        background-size: 100% 300%!important;
+        -webkit-background-size: 100% 300%!important;
+        -moz-background-size: 100% 300%!important;
+        -o-background-size: 100% 300%!important;
     }
 }
