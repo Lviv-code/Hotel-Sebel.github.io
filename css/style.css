@@ -243,10 +243,10 @@ header>.btnHeader {
     background-image: url("../Links/b69421e6-0c95-4a92-8a01-dde89485992b.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     width: 50%;
     height: 100%;
 }
