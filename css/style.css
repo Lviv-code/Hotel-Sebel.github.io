@@ -860,8 +860,8 @@ footer>p:first-of-type {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
-    .image4 {
-        background-image: url("../Links/rawpixelUnsplashMobile.jpg");
+    .block2>.image4 {
+        background-image: url("../Links/rawpixelUnsplashMobile.jpg")!important;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
