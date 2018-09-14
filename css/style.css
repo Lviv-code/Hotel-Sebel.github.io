@@ -50,7 +50,7 @@ header {
 }
 
 .nav {
-    margin-top: 74px;
+    margin-top: 44px;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
@@ -64,7 +64,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
-    margin: 60px 0 -78px 0;
+    margin: 30px 0 -78px 0;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
@@ -92,7 +92,7 @@ header>.btnHeader {
     color: #323366;
     font-weight: 600;
     font-size: 14px;
-    margin: 59px 0 0 277px;
+    margin: 29px 0 0 277px;
     float: right;
     cursor: pointer;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
@@ -104,20 +104,20 @@ header>.btnHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 677px;
+    height: 587px;
     width: 100%;
     background-image: url("../Links/Sebel-front.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 123px;
+    margin-top: 93px;
 }
 
 .topImage>h3 {
     font-weight: 700;
     font-size: 34px;
     display: block;
-    padding-top: 235px;
+    padding-top: 200px;
     text-align: center;
     color: white;
     margin: 0px;
@@ -389,15 +389,14 @@ svg {
 .social>div {
     display: flex;
     justify-content: space-between;
+    margin: 30px 7% 21px 7%;
 }
 
 .social>ul>li {
     list-style-type: none;
 }
 
-.social>div {
-    margin: 77px 7% 21px 7%;
-}
+
 
 .social>div>a {
     text-decoration: none;
@@ -618,7 +617,7 @@ footer>p:first-of-type {
     }
 
     header>.btnHeader {
-        margin: 59px 10px 0 140px;
+        margin: 29px 10px 0 140px;
     }
     .block2>.content>h2{
         font-size: 25px;
