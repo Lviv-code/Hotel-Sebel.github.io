@@ -220,7 +220,7 @@ header>.btnHeader {
 
 .space {
     position: absolute;
-    top: -123px;
+    top: -93px;
 }
 
 .spase1 {
@@ -680,8 +680,8 @@ footer>p:first-of-type {
 
     .navContainer {
         position: absolute;
-        top: 26px;
-        right: 44px;
+        top: 28px;
+        right: 40px;
     }
 
     .block1>.content {
