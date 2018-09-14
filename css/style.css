@@ -611,6 +611,9 @@ footer>p:first-of-type {
     top: 21px;
     left: 8px;
 }
+img{
+    display: none;
+}
 
 @media screen and (max-width: 1200px) {
     .nav-link {
@@ -857,9 +860,22 @@ footer>p:first-of-type {
         height: 32px;
         font-size: 14px;
     }
+    .topImage {
+        overflow: hidden;
+        width: 100%!important;
+    }
+    
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
+    img{
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 700px;
+        overflow: hidden;
+        
+    }
     .image4 {
         background-image: url("../Links/rawpixelUnsplash.jpg");
         background-repeat: no-repeat;
@@ -871,12 +887,8 @@ footer>p:first-of-type {
     }
 
     .topImage {
-        background-image: url("../Links/Sebel-front.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        overflow: hidden;
+        width: 100%!important;
+        position: relative;
     }
 }
