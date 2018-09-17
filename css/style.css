@@ -1,15 +1,18 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
-html{
-    height:100%;
-    min-height:100%;
-    }
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
-    min-height:100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
 }
+
 @-moz-keyframes fadeInDown {
     0% {
         visibility: visible;
@@ -95,8 +98,10 @@ header>.btnHeader {
     margin: 29px 0 0 277px;
     float: right;
     cursor: pointer;
-    border-radius: none;
+    border-radius: none!important;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
@@ -152,8 +157,10 @@ header>.btnHeader {
     display: block;
     margin-top: 50px;
     cursor: pointer;
-    border-radius: none;
+    border-radius: none!important;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
     animation: fadeInDown 0.75s linear 0s forwards;
@@ -304,7 +311,9 @@ header>.btnHeader {
     cursor: pointer;
     text-transform: uppercase;
     -webkit-appearance: none;
-    border-radius: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: none!important;
 }
 
 .block2>.content>.colorBrown {
@@ -625,10 +634,12 @@ footer>p:first-of-type {
     header>.btnHeader {
         margin: 29px 10px 0 140px;
     }
-    .block2>.content>h2{
+
+    .block2>.content>h2 {
         font-size: 25px;
     }
-    .block2>.content>p{
+
+    .block2>.content>p {
         width: 80%;
     }
 }
@@ -866,7 +877,7 @@ footer>p:first-of-type {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
     .block2>.image4 {
-        background-image: url("../Links/rawpixelUnsplashMobile.jpg")!important;
+        background-image: url("../Links/rawpixelUnsplashMobile.jpg") !important;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
