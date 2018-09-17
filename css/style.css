@@ -95,6 +95,7 @@ header>.btnHeader {
     margin: 29px 0 0 277px;
     float: right;
     cursor: pointer;
+    border-radius: none;
     -webkit-appearance: none;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
@@ -151,6 +152,7 @@ header>.btnHeader {
     display: block;
     margin-top: 50px;
     cursor: pointer;
+    border-radius: none;
     -webkit-appearance: none;
     -webkit-animation: fadeInDown 0.75s linear 0s forwards;
     -moz-animation: fadeInDown 0.75s linear 0s forwards;
@@ -302,6 +304,7 @@ header>.btnHeader {
     cursor: pointer;
     text-transform: uppercase;
     -webkit-appearance: none;
+    border-radius: none;
 }
 
 .block2>.content>.colorBrown {
