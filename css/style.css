@@ -895,4 +895,7 @@ footer>p:first-of-type {
         -moz-background-size: cover;
         -o-background-size: cover;
     }
+    .btnHeader{
+        border-radius: none!important;
+    }
 }
