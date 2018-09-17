@@ -98,7 +98,7 @@ header>.btnHeader {
     margin: 29px 0 0 277px;
     float: right;
     cursor: pointer;
-    border-radius: none!important;
+    border-radius: 0!important;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -157,7 +157,7 @@ header>.btnHeader {
     display: block;
     margin-top: 50px;
     cursor: pointer;
-    border-radius: none!important;
+    border-radius: 0!important;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -313,7 +313,7 @@ header>.btnHeader {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: none!important;
+    border-radius: 0!important;
 }
 
 .block2>.content>.colorBrown {
@@ -896,6 +896,6 @@ footer>p:first-of-type {
         -o-background-size: cover;
     }
     .btnHeader{
-        border-radius: none!important;
+        border-radius: 0!important;
     }
 }
