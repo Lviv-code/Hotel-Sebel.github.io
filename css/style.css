@@ -54,9 +54,9 @@ header {
 
 .nav {
     margin-top: 44px;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .logo {
@@ -68,9 +68,9 @@ header {
     background-size: cover;
     display: block;
     margin: 30px 0 -78px 0;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .nav-link {
@@ -102,9 +102,9 @@ header>.btnHeader {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .topImage {
@@ -128,9 +128,9 @@ header>.btnHeader {
     text-align: center;
     color: white;
     margin: 0px;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .topImage>h2 {
@@ -140,9 +140,9 @@ header>.btnHeader {
     text-align: center;
     color: white;
     margin: 0px;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .topImage>.btnHeader {
@@ -161,9 +161,9 @@ header>.btnHeader {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .btnHeader:focus {
@@ -197,6 +197,9 @@ header>.btnHeader {
     line-height: 28px;
     color: #323366;
     font-size: 14px;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .lightYellow {
@@ -210,6 +213,9 @@ header>.btnHeader {
     color: #CC9966;
     padding-top: 105px;
     margin: 0%;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .content {
@@ -292,12 +298,18 @@ header>.btnHeader {
     color: #323366;
     margin-bottom: 35px;
     margin-top: 200px;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .block2>.content>p {
     width: 410px;
     line-height: 28px;
     color: #323366;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .block2>.content>.btnHeader {
@@ -314,6 +326,9 @@ header>.btnHeader {
     -moz-appearance: none;
     appearance: none;
     border-radius: 0!important;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .block2>.content>.colorBrown {
@@ -348,6 +363,9 @@ header>.btnHeader {
     color: #CC9966;
     padding-top: 62px;
     padding-bottom: 20px;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .contactBlock>.contact>p {
@@ -355,6 +373,9 @@ header>.btnHeader {
     font-weight: 400;
     text-align: center;
     color: #323366;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .email>a {
